@@ -1,28 +1,35 @@
 # CLI Tool Rust
 
-`CLI-tool-Rust` contains Rust source code and examples that can be built or run with the Rust toolchain.
+## Project Tags
+
+- No requested category tag currently applies.
+
+## Overview
+
+CLI Tool Rust contains beginner-friendly Rust programs and command-line exercises.
 
 ## Features
 
-- Rust source code and command-line examples
+- Clear repository structure ready for implementation and future expansion
 
 ## Tech Stack
 
+- Cargo
 - Rust
 
 ## Project Structure
 
-- `.gitattributes` - project file
-- `README.md` - project documentation
-- `pal-cli` - project directory
+- `.gitattributes` - project file or directory
+- `pal-cli` - project file or directory
 
 ## Getting Started
 
 ### Prerequisites
 
+- Git
 - Rust toolchain
 
-### Setup
+### Setup and Run
 
 ```bash
 git clone https://github.com/ENZOMOTIVE/CLI-tool-Rust.git
@@ -34,30 +41,31 @@ cd pal-cli
 cargo run
 ```
 
-## Available Commands
+## Commands
 
-- No package scripts were detected in the current repository contents.
+- `cargo build`: build the Rust crate from the crate directory.
+- `cargo test`: run Rust tests when they are added.
 
 ## Configuration
 
-- No required environment variables are documented yet. Add them here when the project needs configuration.
+- No required runtime configuration is documented yet. Add environment variables here when the project needs them.
 
 ## Testing and Quality
 
-- Use `cargo test` from the Rust crate directory when tests are added.
+- Run `cargo test` from the Rust crate directory when tests are present.
 
-## Roadmap
+## Documentation Notes
 
-- Keep setup instructions aligned with the actual project workflow.
-- Add screenshots, architecture notes, or API examples as the implementation grows.
-- Document deployment steps once the hosting target is finalized.
+- Keep this README aligned with the actual source layout and commands.
+- Add screenshots, API examples, contract addresses, or deployment links when they become stable.
+- Update the project tags when the scope changes.
 
 ## Contributing
 
-1. Create a feature branch.
-2. Make focused changes and update documentation when behavior changes.
+1. Create a focused branch for the change.
+2. Update code and documentation together.
 3. Run the relevant checks before opening a pull request.
 
 ## License
 
-No license file is currently included. Add one before distributing or reusing this project publicly.
+No license file is currently committed. Add one before distributing this project publicly.
