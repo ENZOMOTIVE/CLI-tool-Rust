@@ -1,1 +1,0 @@
-C:\codespace\decentralized-chat-app-master\decentralized-chat-app-master\CLI-tool-Rust\pal-cli\target\debug\pal-cli.exe: C:\codespace\decentralized-chat-app-master\decentralized-chat-app-master\CLI-tool-Rust\pal-cli\src\main.rs
