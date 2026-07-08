@@ -1,70 +1,57 @@
 # CLI Tool Rust
 
-## Project Tags
+> CLI Tool Rust is a Rust project for command-line or systems-programming practice.
 
-- No requested category tag currently applies.
+## The Story
 
-## Overview
+CLI Tool Rust starts with a simple goal: make Rust practice tangible through small programs that can be read, compiled, and improved. The repository is intentionally compact today, so the README focuses on turning the current shape into a clear starting point for the next round of work.
 
-CLI Tool Rust contains beginner-friendly Rust programs and command-line exercises.
+## What It Includes
 
-## Features
+- Small Rust programs and exercises that make language concepts concrete.
 
-- Clear repository structure ready for implementation and future expansion
+## How It Is Put Together
 
-## Tech Stack
+| Path | Role |
+| --- | --- |
+| `.gitattributes` | project file or folder |
+| `pal-cli` | project file or folder |
 
-- Cargo
-- Rust
-
-## Project Structure
-
-- `.gitattributes` - project file or directory
-- `pal-cli` - project file or directory
-
-## Getting Started
-
-### Prerequisites
-
-- Git
-- Rust toolchain
-
-### Setup and Run
+## Local Development
 
 ```bash
 git clone https://github.com/ENZOMOTIVE/CLI-tool-Rust.git
 cd CLI-tool-Rust
 ```
 
-```bash
-cd pal-cli
-cargo run
-```
+For Rust crates, enter the crate directory and use `cargo run`, `cargo build`, or `cargo test`.
 
-## Commands
+## Command Surface
 
-- `cargo build`: build the Rust crate from the crate directory.
-- `cargo test`: run Rust tests when they are added.
+The repository does not declare a shared command table yet. Use the local development notes above for the current workflow, then promote repeatable commands here as the project grows.
 
 ## Configuration
 
-- No required runtime configuration is documented yet. Add environment variables here when the project needs them.
+- No runtime secrets are required for the current files. Add an `.env.example` once local configuration becomes part of the project.
 
-## Testing and Quality
+## Quality Checks
 
-- Run `cargo test` from the Rust crate directory when tests are present.
+- Review changed files manually until automated tests or validation scripts are added.
 
-## Documentation Notes
+## Where To Take It Next
 
-- Keep this README aligned with the actual source layout and commands.
-- Add screenshots, API examples, contract addresses, or deployment links when they become stable.
-- Update the project tags when the scope changes.
+- Add a short example that shows the project doing its main job from start to finish.
+- Keep setup commands current whenever dependencies, scripts, or deployment targets change.
+- Record important product decisions here so the repository keeps its story as the code evolves.
 
-## Contributing
+## Project Metadata
 
-1. Create a focused branch for the change.
-2. Update code and documentation together.
-3. Run the relevant checks before opening a pull request.
+| Field | Details |
+| --- | --- |
+| Repository | `ENZOMOTIVE/CLI-tool-Rust` |
+| Categories | `General` |
+| Primary stack | Cargo, Rust |
+
 
 ## License
 
